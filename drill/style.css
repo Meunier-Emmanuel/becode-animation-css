@@ -1,0 +1,59 @@
+/*@keyframes slide {
+
+    100% {
+        transform: translateX(100px);
+    }
+}
+
+@keyframes size {
+    
+    100% {
+        transform: scale(2);        
+    }
+}
+*/
+
+
+/*#slide:hover {
+    animation: slide 1s infinite;
+    animation-direction: alternate;
+}
+
+#size:hover {
+    animation: size 1s infinite;
+}*/
+
+body {
+    background-color: black;
+}
+
+button {
+    color: white;
+    border: solid 5px white;
+    background-color: black;
+    padding: 5px;
+    margin: 100px;
+    display:list-item;
+    list-style-type: none;
+}
+
+#normal:hover{
+    color: black;
+    background-color: white;
+    transition-duration: 1s;
+}
+
+
+#size:hover {
+    color: black;
+    background-color: white;
+    transform: scale(2);
+    transition-duration: 1s;
+}
+
+#slide:hover {
+    color: black;
+    background-color: white;
+    transition-duration: 2s;
+    transform: translateX(150px);
+}

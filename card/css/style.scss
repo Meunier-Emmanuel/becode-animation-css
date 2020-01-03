@@ -1,0 +1,126 @@
+
+body{
+    margin: auto;
+}
+.back{
+    background-color: wheat;
+    width: 400px;
+    margin: auto;
+    overflow: hidden;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    
+}
+
+header{
+    .date {
+        position:relative ;
+        top:80px;
+        left: 80%;
+        width: 50px;
+        height: 50px;
+        background-color: red;
+        border-radius: 50%;
+        text-align: center;
+        
+    }
+    img{
+        
+        width: 400px;   
+    }
+}
+
+main {
+    background-color: wheat;
+    text-align: center;
+    margin-top: -15px;
+    height: 150px;
+    z-index: 1;
+    #photo{
+        background-color: red;
+        padding: 15px;
+        border-radius: 10%;
+        font-weight: bold;
+        position: relative;
+        top:-25px;
+        width: 50px;
+        padding-right: 25px;
+    }
+    h2 {
+        font-weight: normal;
+        color: rgba(255, 0, 0, 0.63);
+        font-size: 15px;
+    }
+    p{
+        z-index: 1;
+        text-align: left;
+        overflow: hidden;
+    }
+}
+
+footer {
+    z-index: 1000;
+    position: absolute;
+    background-color: wheat;
+    width: 400px;
+    p{
+        display: inline-flex;
+        padding-left: 65px;
+        line-height: 30px;
+    }
+}
+
+.back:hover img{
+    opacity: 50%;
+    transition-duration: 2s;
+    transform: scale(1.1);
+}
+
+.back:hover main {
+    transform: translatey(-100px);
+    background-color: wheat;
+    transition-duration: 2s;
+}
+.back:hover p:last-child {
+    overflow: visible;
+}
+
+.back:hover{
+    box-shadow:5px 5px 5px red;
+    animation-duration: 2s;
+}
+
+.back:hover footer {
+    box-shadow:5px 5px 5px red;
+    animation-duration: 2s;
+}
+
+
+
+ /* test qui c'est mal passé 
+
+ header{
+    margin-top: -100px;
+ #date{
+        position: relative;
+        top:100px;
+        left: 45%;
+        background-color: red;
+        margin-right: 40%;
+        width: 50px;
+        text-align: center;
+        border-radius: 50%;
+        height: 50px;
+        font-size: 10px;
+        p{
+            padding-top: 10px;
+        }
+    }
+    p{
+        background-color: red;
+        width: 150px;
+        height: 100px;
+    }
+}
+
+*/
