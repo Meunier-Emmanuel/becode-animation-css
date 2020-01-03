@@ -31,7 +31,7 @@ Première apprentissage des animations et transitions .
 
 ## Screen
 
-[40%](screen.png)
+[screen](https://github.com/Meunier-Emmanuel/becode-animation-css/blob/master/screen.png)
 
 ### Exercice réalisé par Meunier Emmanuel le 3Janvier à Charleroi.
 
